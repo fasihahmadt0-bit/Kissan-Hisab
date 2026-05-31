@@ -1,0 +1,43 @@
+{
+  "name": "Kissan Hisab — کسان حساب",
+  "short_name": "Kissan Hisab",
+  "description": "Digital farm ledger — ڈیجیٹل کھیتی بہی خاتہ",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a5e43",
+  "theme_color": "#0a5e43",
+  "lang": "ur",
+  "dir": "auto",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Add Income",
+      "short_name": "Income",
+      "url": "/?action=add-income",
+      "description": "Record income quickly"
+    },
+    {
+      "name": "Add Expense",
+      "short_name": "Expense",
+      "url": "/?action=add-expense",
+      "description": "Record expense quickly"
+    }
+  ]
+}
